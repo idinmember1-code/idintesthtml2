@@ -1,0 +1,129 @@
+.student-1{
+    width: 80px;
+    left: 20px;
+    bottom: 5px;
+    position: fixed ;
+    animation: studentan  ;
+    animation-duration: 2s ;
+    animation-timing-function: 2s;
+    animation-iteration-count: infinite ;
+    
+}
+
+.frames{
+    width: 150px;
+    padding: 250px;
+    margin-left: 350px;
+    margin-right: 500px;
+    margin-top: 50px;
+    background-color: black;
+    opacity: 50%;
+    justify-content: center; 
+    align-items: center;
+    border-radius: 10%;
+    display: flex;
+}
+
+
+
+
+
+
+.html,body{
+    background-image: linear-gradient(90deg, rgba(25, 136, 247, 1) 0%, rgba(247, 25, 136, 1) 100%);
+}
+
+@keyframes studentan {
+    0%{
+        transform: translateX(0%);
+    }
+    50%{
+        transform: translateX(100%)
+    }
+    100%{
+        transform: translateX(250%)
+        
+    }
+}
+
+.H5{
+    color: white;
+    top: 50px;
+    left: 400px;
+    position: absolute;
+    font-size: 20px;
+}
+.H2{
+    color: white;
+    top: 130px;
+    left: 400px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.buttongo{
+    width: 300px;
+    padding: 20px;
+    border-radius: 5%;
+    border: none;
+    background-color: white;
+    animation: buttongo;
+    animation-timing-function: 1s ;
+    animation-duration: 1s ;
+    animation-delay: 1s ;
+    animation-iteration-count: infinite;
+}
+
+.buttongo:hover{
+    border: none;
+    width: 300px;
+    padding: 20px;
+    border-radius: 5%;
+    background-color: rgb(255, 0, 0);
+    animation: buttongo;
+    animation-timing-function: 1s ;
+    animation-duration: 1s ;
+    animation-delay: 1s ;
+    animation-iteration-count: 1s;
+    color: white;
+}
+
+
+
+.school{
+    width: 300px;
+    bottom: 5px;
+    right: 2px;
+    position: relative ;
+    
+}
+
+@keyframes buttongo{
+        0%{
+            transform: translateY(0%);
+        }
+        50%{
+            transform: translateY(-50%);
+        }
+        100%{
+            transform: translateY(0%);
+        }
+}
+
+
+
+.SG{
+    
+    padding: 80px;
+    margin-top: 50px;
+    right: auto;
+    left: 3px;
+    top: 20px;
+    position: absolute;
+    
+}
+
+
+.img-sg{
+    border-radius: 10%;
+}
